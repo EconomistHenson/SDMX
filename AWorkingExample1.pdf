@@ -1,0 +1,650 @@
+%PDF-1.4
+%“Œ‹ž ReportLab Generated PDF document http://www.reportlab.com
+1 0 obj
+<<
+/F1 2 0 R /F2 3 0 R /F3 4 0 R /F4 5 0 R /F5 6 0 R /F6 7 0 R
+>>
+endobj
+2 0 obj
+<<
+/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+>>
+endobj
+3 0 obj
+<<
+/BaseFont /Times-Roman /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+>>
+endobj
+4 0 obj
+<<
+/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+>>
+endobj
+5 0 obj
+<<
+/BaseFont /Courier /Encoding /WinAnsiEncoding /Name /F4 /Subtype /Type1 /Type /Font
+>>
+endobj
+6 0 obj
+<<
+/BaseFont /Courier-Bold /Encoding /WinAnsiEncoding /Name /F5 /Subtype /Type1 /Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Courier-Oblique /Encoding /WinAnsiEncoding /Name /F6 /Subtype /Type1 /Type /Font
+>>
+endobj
+8 0 obj
+<<
+/Contents 17 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+9 0 obj
+<<
+/Contents 18 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 16 0 R /Resources <<
+/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
+>> /Rotate 0 /Trans <<
+
+>> 
+  /Type /Page
+>>
+endobj
+10 0 obj
+<<
+/Outlines 12 0 R /PageLabels 19 0 R /PageMode /UseNone /Pages 16 0 R /Type /Catalog
+>>
+endobj
+11 0 obj
+<<
+/Author () /CreationDate (D:20230711081052+05'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20230711081052+05'00') /Producer (ReportLab PDF Library - www.reportlab.com) 
+  /Subject (\(unspecified\)) /Title (A Working Example CANSIM-SDMX) /Trapped /False
+>>
+endobj
+12 0 obj
+<<
+/Count 3 /First 13 0 R /Last 15 0 R /Type /Outlines
+>>
+endobj
+13 0 obj
+<<
+/Dest [ 8 0 R /XYZ 57.02362 609.0236 0 ] /Next 14 0 R /Parent 12 0 R /Title (Enter CURL COMMAND)
+>>
+endobj
+14 0 obj
+<<
+/Dest [ 8 0 R /XYZ 57.02362 414.4387 0 ] /Next 15 0 R /Parent 12 0 R /Prev 13 0 R /Title (Transform the XML to CVS)
+>>
+endobj
+15 0 obj
+<<
+/Dest [ 9 0 R /XYZ 57.02362 699.0236 0 ] /Parent 12 0 R /Prev 14 0 R /Title (Future Work)
+>>
+endobj
+16 0 obj
+<<
+/Count 2 /Kids [ 8 0 R 9 0 R ] /Type /Pages
+>>
+endobj
+17 0 obj
+<<
+/Length 10801
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 729.0236 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 4 Tm /F2 20 Tf 24 TL 83.68417 0 Td (A Working Example CANSIM-SDMX) Tj T* -83.68417 0 Td ET
+Q
+Q
+q
+1 0 0 1 57.02362 621.0236 cm
+q
+BT 1 0 0 1 0 62 Tm .509793 Tw 12 TL /F1 10 Tf 0 0 0 rg (The document ) Tj /F3 10 Tf (<) Tj (https://www.statcan.gc.ca/en/developers/sdmx/user-guide) Tj /F1 10 Tf ( recently released by Stats Can is) Tj T* 0 Tw 1.453647 Tw (highly significant in nature. However, it is intended for a technically inclined reader. This note provides a) Tj T* 0 Tw .169387 Tw (working example to help a reader less proficient get started. This note is based on Example 1 given on page) Tj T* 0 Tw .049917 Tw (7 of the above cited document. This example provides a single line of http. This is a sufficient for a developer) Tj T* 0 Tw -0.137744 Tw (but some analysts would need additional support before they could make use of SDMX. This note is targetted) Tj T* 0 Tw (on the needs of an analyst with an interest in Python.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 588.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Enter CURL COMMAND) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 522.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .04754 Tw (Code can be written that is stored in a one-line text file. This script can then be executed in a fashion specific) Tj T* 0 Tw 1.696147 Tw (to the computation environment in use. This example was written and tested for a BASH window under) Tj T* 0 Tw .086529 Tw (Ubuntu LINUX. However, there are variants available under almost every possible computation environment.) Tj T* 0 Tw 1.17213 Tw (With Ubuntu LINUX the following command would be stored in a text file with and extension 'sh'. The file) Tj T* 0 Tw (would be executed via the SOURCE command.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 494.4387 cm
+q
+q
+.777178 0 0 .777178 0 0 cm
+q
+1 0 0 1 6.6 8.492268 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.941176 .972549 1 rg
+n -6 -6 618 24 re B*
+Q
+q
+BT 1 0 0 1 0 2 Tm 12 TL /F4 10 Tf 0 0 0 rg (curl https://www150.statcan.gc.ca/t1/wds/sdmx/statcan/v1/rest/data/DF_17100005/1.1.1 ) Tj (>) Tj ( DF17100005.xml) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 426.4387 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 50 Tm /F1 10 Tf 12 TL .583432 Tw (Essentially the curl command is equivalent to entering the http web address in the browser window. Thus if) Tj T* 0 Tw -0.053712 Tw (curl is entered on a commandline the data will come back and fill the screen. That is why the URL is follow by) Tj T* 0 Tw .364683 Tw (what looks like a greater than sign but is known as a pipe. In this case the pipe command directs the output) Tj T* 0 Tw 1.108241 Tw (of the curl command to an xml file, which was arbitrarily named after the vector. Once this command has) Tj T* 0 Tw (been executed an xml file should appear in the local drive.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 393.4387 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Transform the XML to CVS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 351.4387 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 26 Tm /F1 10 Tf 12 TL 2.001575 Tw (Most analysts would not be able to work directly with the XML that is generated. Although the xml file) Tj T* 0 Tw 1.223071 Tw (generated is valid from an XML perspective, it is not standard. As a result the following code in not what) Tj T* 0 Tw (some might expect as the data note was located futher down the XML tree than what might be expected.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 138.2387 cm
+q
+q
+1 0 0 1 0 0 cm
+q
+1 0 0 1 6.6 6.6 cm
+q
+.662745 .662745 .662745 RG
+.5 w
+.941176 .972549 1 rg
+n -6 -6 480.0283 204 re B*
+Q
+q
+.941176 .972549 1 rg
+n 0 180 36 12 re f*
+.941176 .972549 1 rg
+n 42 180 126 12 re f*
+.941176 .972549 1 rg
+n 174 180 12 12 re f*
+.941176 .972549 1 rg
+n 192 180 12 12 re f*
+.941176 .972549 1 rg
+n 0 168 36 12 re f*
+.941176 .972549 1 rg
+n 42 168 18 12 re f*
+.941176 .972549 1 rg
+n 0 144 24 12 re f*
+.941176 .972549 1 rg
+n 30 144 6 12 re f*
+.941176 .972549 1 rg
+n 42 144 12 12 re f*
+.941176 .972549 1 rg
+n 54 144 6 12 re f*
+.941176 .972549 1 rg
+n 60 144 30 12 re f*
+.941176 .972549 1 rg
+n 90 144 6 12 re f*
+.941176 .972549 1 rg
+n 96 144 96 12 re f*
+.941176 .972549 1 rg
+n 192 144 6 12 re f*
+.941176 .972549 1 rg
+n 0 132 24 12 re f*
+.941176 .972549 1 rg
+n 30 132 6 12 re f*
+.941176 .972549 1 rg
+n 42 132 24 12 re f*
+.941176 .972549 1 rg
+n 66 132 6 12 re f*
+.941176 .972549 1 rg
+n 72 132 42 12 re f*
+.941176 .972549 1 rg
+n 114 132 12 12 re f*
+.941176 .972549 1 rg
+n 0 108 18 12 re f*
+.941176 .972549 1 rg
+n 24 108 24 12 re f*
+.941176 .972549 1 rg
+n 54 108 12 12 re f*
+.941176 .972549 1 rg
+n 72 108 24 12 re f*
+.941176 .972549 1 rg
+n 96 108 6 12 re f*
+.941176 .972549 1 rg
+n 6 96 18 12 re f*
+.941176 .972549 1 rg
+n 30 96 42 12 re f*
+.941176 .972549 1 rg
+n 78 96 12 12 re f*
+.941176 .972549 1 rg
+n 96 96 24 12 re f*
+.941176 .972549 1 rg
+n 120 96 6 12 re f*
+.941176 .972549 1 rg
+n 12 84 24 12 re f*
+.941176 .972549 1 rg
+n 42 84 24 12 re f*
+.941176 .972549 1 rg
+n 66 84 6 12 re f*
+.941176 .972549 1 rg
+n 72 84 96 12 re f*
+.941176 .972549 1 rg
+n 168 84 6 12 re f*
+.941176 .972549 1 rg
+n 174 84 18 12 re f*
+.941176 .972549 1 rg
+n 192 84 6 12 re f*
+.941176 .972549 1 rg
+n 198 84 42 12 re f*
+.941176 .972549 1 rg
+n 240 84 6 12 re f*
+.941176 .972549 1 rg
+n 246 84 12 12 re f*
+.941176 .972549 1 rg
+n 258 84 6 12 re f*
+.941176 .972549 1 rg
+n 270 84 12 12 re f*
+.941176 .972549 1 rg
+n 288 84 30 12 re f*
+.941176 .972549 1 rg
+n 318 84 6 12 re f*
+.941176 .972549 1 rg
+n 18 72 36 12 re f*
+.941176 .972549 1 rg
+n 60 72 6 12 re f*
+.941176 .972549 1 rg
+n 72 72 18 12 re f*
+.941176 .972549 1 rg
+n 90 72 6 12 re f*
+.941176 .972549 1 rg
+n 96 72 36 12 re f*
+.941176 .972549 1 rg
+n 132 72 6 12 re f*
+.941176 .972549 1 rg
+n 138 72 30 12 re f*
+.941176 .972549 1 rg
+n 168 72 6 12 re f*
+.941176 .972549 1 rg
+n 18 60 36 12 re f*
+.941176 .972549 1 rg
+n 54 60 6 12 re f*
+.941176 .972549 1 rg
+n 60 60 48 12 re f*
+.941176 .972549 1 rg
+n 108 60 12 12 re f*
+.941176 .972549 1 rg
+n 120 60 36 12 re f*
+.941176 .972549 1 rg
+n 156 60 6 12 re f*
+.941176 .972549 1 rg
+n 162 60 72 12 re f*
+.941176 .972549 1 rg
+n 234 60 12 12 re f*
+.941176 .972549 1 rg
+n 18 48 18 12 re f*
+.941176 .972549 1 rg
+n 42 48 48 12 re f*
+.941176 .972549 1 rg
+n 96 48 12 12 re f*
+.941176 .972549 1 rg
+n 114 48 42 12 re f*
+.941176 .972549 1 rg
+n 156 48 6 12 re f*
+.941176 .972549 1 rg
+n 24 36 138 12 re f*
+.941176 .972549 1 rg
+n 24 24 30 12 re f*
+.941176 .972549 1 rg
+n 60 24 6 12 re f*
+.941176 .972549 1 rg
+n 72 24 48 12 re f*
+.941176 .972549 1 rg
+n 120 24 6 12 re f*
+.941176 .972549 1 rg
+n 126 24 18 12 re f*
+.941176 .972549 1 rg
+n 144 24 6 12 re f*
+.941176 .972549 1 rg
+n 150 24 78 12 re f*
+.941176 .972549 1 rg
+n 228 24 6 12 re f*
+.941176 .972549 1 rg
+n 24 12 36 12 re f*
+.941176 .972549 1 rg
+n 66 12 6 12 re f*
+.941176 .972549 1 rg
+n 78 12 48 12 re f*
+.941176 .972549 1 rg
+n 126 12 6 12 re f*
+.941176 .972549 1 rg
+n 132 12 18 12 re f*
+.941176 .972549 1 rg
+n 150 12 6 12 re f*
+.941176 .972549 1 rg
+n 156 12 66 12 re f*
+.941176 .972549 1 rg
+n 222 12 6 12 re f*
+.941176 .972549 1 rg
+n 24 0 36 12 re f*
+.941176 .972549 1 rg
+n 60 0 6 12 re f*
+.941176 .972549 1 rg
+n 66 0 48 12 re f*
+.941176 .972549 1 rg
+n 114 0 12 12 re f*
+.941176 .972549 1 rg
+n 126 0 30 12 re f*
+.941176 .972549 1 rg
+n 156 0 6 12 re f*
+.941176 .972549 1 rg
+n 162 0 36 12 re f*
+.941176 .972549 1 rg
+n 198 0 12 12 re f*
+BT 1 0 0 1 0 182 Tm 12 TL /F5 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F5 10 Tf 0 0 1 rg (xml.etree.ElementTree) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F5 10 Tf 0 .501961 0 rg (as) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F5 10 Tf 0 0 1 rg (ET) Tj /F4 10 Tf 0 0 0 rg  T* /F5 10 Tf 0 .501961 0 rg (import) Tj /F4 10 Tf 0 0 0 rg ( ) Tj /F5 10 Tf 0 0 1 rg (csv) Tj /F4 10 Tf 0 0 0 rg  T*  T* (tree) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (ET) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (parse) Tj (\() Tj .729412 .129412 .129412 rg ("DF17100005.xml") Tj 0 0 0 rg (\)) Tj  T* (root) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (tree) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (getroot) Tj (\(\)) Tj  T*  T* /F5 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (elem) Tj ( ) Tj /F5 10 Tf .666667 .133333 1 rg (in) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (root) Tj (:) Tj  T* ( ) Tj /F5 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (subelem) Tj ( ) Tj /F5 10 Tf .666667 .133333 1 rg (in) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (elem) Tj (:) Tj  T* (  ) Tj /F5 10 Tf 0 .501961 0 rg (with) Tj /F4 10 Tf 0 0 0 rg ( ) Tj 0 .501961 0 rg (open) Tj 0 0 0 rg (\() Tj .729412 .129412 .129412 rg ("DF17100005.csv") Tj 0 0 0 rg (,) Tj .729412 .129412 .129412 rg ('w') Tj 0 0 0 rg (,) Tj (newline) Tj .4 .4 .4 rg (=) Tj .729412 .129412 .129412 rg ('') Tj 0 0 0 rg (\)) Tj ( ) Tj /F5 10 Tf 0 .501961 0 rg (as) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (f_out) Tj (:) Tj  T* (   ) Tj (writer) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (csv) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (writer) Tj (\() Tj (f_out) Tj (\)) Tj  T* (   ) Tj (writer) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (writerow) Tj (\(\() Tj .729412 .129412 .129412 rg ('Year') Tj 0 0 0 rg (,) Tj .729412 .129412 .129412 rg ('Population') Tj 0 0 0 rg (\)\)) Tj  T* (   ) Tj /F5 10 Tf 0 .501961 0 rg (for) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (ssubelem) Tj ( ) Tj /F5 10 Tf .666667 .133333 1 rg (in) Tj /F4 10 Tf 0 0 0 rg ( ) Tj (subelem) Tj (:) Tj  T* (    ) Tj /F6 10 Tf .25098 .501961 .501961 rg (#print\(ssubelem.attrib\)) Tj /F4 10 Tf 0 0 0 rg  T* (    ) Tj (theyr) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (ssubelem) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg ('TIME_PERIOD') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (theval) Tj ( ) Tj .4 .4 .4 rg (=) Tj 0 0 0 rg ( ) Tj (ssubelem) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (get) Tj (\() Tj .729412 .129412 .129412 rg ('OBS_VALUE') Tj 0 0 0 rg (\)) Tj  T* (    ) Tj (writer) Tj .4 .4 .4 rg (.) Tj 0 0 0 rg (writerow) Tj (\(\() Tj (theyr) Tj (,) Tj (theval) Tj (\)\)) Tj T* ET
+Q
+Q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 118.2387 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (This code can be used for another vector by following the following steps:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 112.2387 cm
+Q
+q
+1 0 0 1 57.02362 112.2387 cm
+Q
+q
+1 0 0 1 57.02362 88.23875 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .709272 Tw (Determine the vector number of the data of interest and replace DF1700005.xml with the label for the) Tj T* 0 Tw (new vector) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 82.23875 cm
+Q
+q
+1 0 0 1 51.02362 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 198.2642 0 Td 12 TL /F1 10 Tf 0 0 0 rg (H Henson \(July 2023\)) Tj T* -198.2642 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 42.51969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 230.7692 0 Td (Page 1) Tj T* -230.7692 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+18 0 obj
+<<
+/Length 2753
+>>
+stream
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 57.02362 729.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 9 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL 1.967397 Tw ('Year' and 'Population' will have to be changed if column headings are desired. Note they are not) Tj T* 0 Tw (required.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 723.0236 cm
+Q
+q
+1 0 0 1 57.02362 711.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (uncomment the print statement if difficulties are encountered for diagnostic purposes) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 711.0236 cm
+Q
+q
+1 0 0 1 57.02362 678.0236 cm
+q
+BT 1 0 0 1 0 3.5 Tm 21 TL /F2 17.5 Tf .133333 .133333 .133333 rg (Future Work) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 648.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 14 Tm /F1 10 Tf 12 TL .525379 Tw (It is not know to what extent this example is of practical value. It may be that the package available on R is) Tj T* 0 Tw (more than sufficient. There are plans to expand this note along the following lines:) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 642.0236 cm
+Q
+q
+1 0 0 1 57.02362 642.0236 cm
+Q
+q
+1 0 0 1 57.02362 630.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (test the curl command on non-Linux environments, such as Chrome and Windows.) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 624.0236 cm
+Q
+q
+1 0 0 1 57.02362 612.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (test with collections of vectors) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 606.0236 cm
+Q
+q
+1 0 0 1 57.02362 594.0236 cm
+q
+0 0 0 rg
+BT /F1 10 Tf 12 TL ET
+q
+1 0 0 1 6 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F4 10 Tf 12 TL 8 0 Td (\177) Tj T* -8 0 Td ET
+Q
+Q
+q
+1 0 0 1 23 -3 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (test with various periodicities) Tj T* ET
+Q
+Q
+q
+Q
+Q
+Q
+q
+1 0 0 1 57.02362 594.0236 cm
+Q
+q
+1 0 0 1 57.02362 576.0236 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL (I will also be open to requests based on unique and interesting situations.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 51.02362 773.1969 cm
+q
+BT 1 0 0 1 0 2 Tm 198.2642 0 Td 12 TL /F1 10 Tf 0 0 0 rg (H Henson \(July 2023\)) Tj T* -198.2642 0 Td ET
+Q
+Q
+q
+1 0 0 1 51.02362 42.51969 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 2 Tm /F1 10 Tf 12 TL 230.7692 0 Td (Page 2) Tj T* -230.7692 0 Td ET
+Q
+Q
+ 
+endstream
+endobj
+19 0 obj
+<<
+/Nums [ 0 20 0 R 1 21 0 R ]
+>>
+endobj
+20 0 obj
+<<
+/S /D /St 1
+>>
+endobj
+21 0 obj
+<<
+/S /D /St 2
+>>
+endobj
+xref
+0 22
+0000000000 65535 f 
+0000000073 00000 n 
+0000000154 00000 n 
+0000000261 00000 n 
+0000000370 00000 n 
+0000000485 00000 n 
+0000000590 00000 n 
+0000000700 00000 n 
+0000000813 00000 n 
+0000001018 00000 n 
+0000001223 00000 n 
+0000001329 00000 n 
+0000001616 00000 n 
+0000001690 00000 n 
+0000001809 00000 n 
+0000001947 00000 n 
+0000002059 00000 n 
+0000002125 00000 n 
+0000012979 00000 n 
+0000015784 00000 n 
+0000015834 00000 n 
+0000015868 00000 n 
+trailer
+<<
+/ID 
+[<e8909f48dfc3afb60fecc24c1ea774f9><e8909f48dfc3afb60fecc24c1ea774f9>]
+% ReportLab generated PDF document -- digest (http://www.reportlab.com)
+
+/Info 11 0 R
+/Root 10 0 R
+/Size 22
+>>
+startxref
+15902
+%%EOF
